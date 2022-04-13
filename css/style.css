@@ -1,0 +1,154 @@
+*{
+     margin: 0;
+     padding: 0;
+}
+
+header {
+    background-color: aquamarine;
+    grid-area: header;
+}
+
+section {
+    background-color: blue;
+    grid-area: section;
+}
+
+main {
+    background-color: brown;
+    grid-area: main;
+}
+.titulo {
+    font-size: 70px;
+    font-family: 'Oswald', sans-serif;
+    border-style: inset;
+    background-color: hsl(343, 19%, 79%);
+    color:hsl(26, 77%, 59%);
+    text-align: center;
+    grid-area:titulo;
+}
+
+body {
+    min-height: 100vh;
+}
+.lista {
+    list-style-type: none;
+    border-color:  hsl(343, 19%, 79%);;
+    border-style: inset;
+    background-color:  hsl(343, 19%, 79%);;
+    color: hsl(26, 77%, 59%);
+    background-image: url(https://img.freepik.com/foto-gratis/arreglo-vista-superior-pinceles-maquillaje-sombras-ojos_23-2148301855.jpg);
+    background-repeat: repeat-x;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    grid-area:lista;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.makeups {
+    border-style: inset;
+    border-color: hsl(26, 63%, 87%);
+    background-color: hsl(26, 63%, 87%);
+    color: hsl(26, 77%, 59%);
+    margin: 20px 500px 20px 500px;
+    text-align: center;
+    grid-area:makeups;
+}
+
+.makeup1 {
+    border-style: inset;
+    border-color: hsl(26, 63%, 87%);
+    padding: 0px 0px 0px 0px;
+    margin: 20px 500px 20px 500px;
+    background-color:  hsl(343, 19%, 79%);
+    grid-area:makeup1;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    font-family: 'Oswald', sans-serif;
+    border-style: inset;
+    border-color: hsl(343, 19%, 79%);;
+    background-color: hsl(343, 19%, 79%);;
+    color:  hsl(26, 77%, 59%);
+    padding:50px;
+    margin-top: 30%;
+    grid-area:footer;
+    font-size: 20px;
+}
+
+.form {
+    list-style-type:none;
+    background-color: hsl(343, 19%, 79%);;
+    border-style:inset;
+    border-color:hsl(343, 19%, 79%);;
+    color:hsl(26, 77%, 59%);
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    grid-area:form;
+    font-size: 30px;
+    display: flex;
+    justify-content:center;
+    align-items: flex-start;
+}
+
+.descripcion {
+    font-family: 'Oswald', sans-serif;
+    color: hsl(26, 77%, 59%);
+    font-size: 20px;
+    margin-left: 100px;
+    grid-area:descripcion;
+}
+
+.wrapper {
+    display:grid;
+    grid-template-rows: 100px 20rem 20rem 100px;
+    grid-template-columns: auto;
+    gap: 20px;
+    grid-template-areas:
+    "titulo"
+    "section"
+    "body"
+    "lista"
+    "makeups"
+    "makeup1"
+    "footer"
+    "form"
+    "descripcion"
+    "main"
+    border= 2px solid black;
+}
+@media(min-width:500px){
+    .wrapper{
+        background-color: aqua;
+        grid-template-columns: 1fr 3fr;
+        grid-template-areas: 
+        "section header"
+        "section main"
+        "footer footer";}
+    }
+@media(min-width:700px){
+    .wrapper{
+        background-color: blue;
+        grid-template-columns: 1fr 4fr 1fr;
+        grid-template-areas: 
+        "section header main"
+        "footer footer footer";}    
+    }
+@media(min-width:920px){
+    .wrapper{   
+        background-color: blueviolet;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+        "section header header header"
+        "section main main main"
+        "footer footer footer footer";
+    }
+}
+
+.nav:hover{
+    transform: scale(2);
+    transition:all 2s;
+}
