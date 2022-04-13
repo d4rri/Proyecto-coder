@@ -4,19 +4,23 @@
 }
 
 header {
-    background-color: aquamarine;
+    background-color: rgb(168, 146, 173);
     grid-area: header;
 }
 
+body {
+    background-color: rgb(168, 146, 173) ;
+}
 section {
-    background-color: blue;
+    background-color:rgb(168, 146, 173);
     grid-area: section;
 }
 
 main {
-    background-color: brown;
+    background-color:rgb(168, 146, 173) ;
     grid-area: main;
 }
+
 .titulo {
     font-size: 70px;
     font-family: 'Oswald', sans-serif;
@@ -54,29 +58,6 @@ body {
     margin: 20px 500px 20px 500px;
     text-align: center;
     grid-area:makeups;
-}
-
-.makeup1 {
-    border-style: inset;
-    border-color: hsl(26, 63%, 87%);
-    padding: 0px 0px 0px 0px;
-    margin: 20px 500px 20px 500px;
-    background-color:  hsl(343, 19%, 79%);
-    grid-area:makeup1;
-    display: flex;
-    flex-direction: column;
-}
-
-.footer {
-    font-family: 'Oswald', sans-serif;
-    border-style: inset;
-    border-color: hsl(343, 19%, 79%);;
-    background-color: hsl(343, 19%, 79%);;
-    color:  hsl(26, 77%, 59%);
-    padding:50px;
-    margin-top: 30%;
-    grid-area:footer;
-    font-size: 20px;
 }
 
 .form {
@@ -139,11 +120,11 @@ body {
     }
 @media(min-width:920px){
     .wrapper{   
-        background-color: blueviolet;
+        background-color: rgb(168, 146, 173);
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-areas:
-        "section header header header"
-        "section main main main"
+        "header header header header"
+        "main main main main"
         "footer footer footer footer";
     }
 }
