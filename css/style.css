@@ -5,7 +5,7 @@
 
 header {
     background-color: rgb(168, 146, 173);
-    grid-area: header;
+
 }
 
 body {
@@ -13,22 +13,25 @@ body {
 }
 section {
     background-color:rgb(168, 146, 173);
-    grid-area: section;
+
 }
 
 main {
     background-color:rgb(168, 146, 173) ;
-    grid-area: main;
+}
+
+footer {
+    margin-top: 90%;
 }
 
 .titulo {
     font-size: 70px;
     font-family: 'Oswald', sans-serif;
     border-style: inset;
-    background-color: hsl(343, 19%, 79%);
+    background-color: rgb(168, 146, 173);
     color:hsl(26, 77%, 59%);
     text-align: center;
-    grid-area:titulo;
+
 }
 
 body {
@@ -43,8 +46,7 @@ body {
     background-image: url(https://img.freepik.com/foto-gratis/arreglo-vista-superior-pinceles-maquillaje-sombras-ojos_23-2148301855.jpg);
     background-repeat: repeat-x;
     font-family: 'Oswald', sans-serif;
-    font-size: 30px;
-    grid-area:lista;
+    font-size:30px;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -57,7 +59,7 @@ body {
     color: hsl(26, 77%, 59%);
     margin: 20px 500px 20px 500px;
     text-align: center;
-    grid-area:makeups;
+
 }
 
 .form {
@@ -67,8 +69,7 @@ body {
     border-color:hsl(343, 19%, 79%);;
     color:hsl(26, 77%, 59%);
     text-align: center;
-    font-family: 'Oswald', sans-serif;
-    grid-area:form;
+    font-family:'Oswald', sans-serif;
     font-size: 30px;
     display: flex;
     justify-content:center;
@@ -79,57 +80,5 @@ body {
     font-family: 'Oswald', sans-serif;
     color: hsl(26, 77%, 59%);
     font-size: 20px;
-    margin-left: 100px;
-    grid-area:descripcion;
-}
-
-.wrapper {
-    display:grid;
-    grid-template-rows: 100px 20rem 20rem 100px;
-    grid-template-columns: auto;
-    gap: 20px;
-    grid-template-areas:
-    "titulo"
-    "section"
-    "body"
-    "lista"
-    "makeups"
-    "makeup1"
-    "footer"
-    "form"
-    "descripcion"
-    "main"
-    border= 2px solid black;
-}
-@media(min-width:500px){
-    .wrapper{
-        background-color: aqua;
-        grid-template-columns: 1fr 3fr;
-        grid-template-areas: 
-        "section header"
-        "section main"
-        "footer footer";}
-    }
-@media(min-width:700px){
-    .wrapper{
-        background-color: blue;
-        grid-template-columns: 1fr 4fr 1fr;
-        grid-template-areas: 
-        "section header main"
-        "footer footer footer";}    
-    }
-@media(min-width:920px){
-    .wrapper{   
-        background-color: rgb(168, 146, 173);
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-areas:
-        "header header header header"
-        "main main main main"
-        "footer footer footer footer";
-    }
-}
-
-.nav:hover{
-    transform: scale(2);
-    transition:all 2s;
+    margin-left:100px;
 }
