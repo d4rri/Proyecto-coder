@@ -1,0 +1,74 @@
+
+@import "reset";
+@import "colores";
+
+header {
+    color: $color1;
+   .titulo {
+    font-size: 70px;
+    font-family: 'Oswald', sans-serif;
+    border-style: inset;
+    border-color:$color2;
+    text-align: center;
+ 
+ }
+}
+
+body {
+    min-height: 100vh;
+    background-color: $color1;
+    main {
+        background-color:$color1;
+         .descripcion {
+         font-family: 'Oswald', sans-serif;
+         border-color: $color2;
+         font-size: 20px;
+         margin-left:100px;
+      }
+        .form {
+         list-style-type:none;
+         background-color: $color1;
+         border-style:inset;
+         border-color:$color1;
+         text-align: center;
+         font-family:'Oswald', sans-serif;
+         font-size: 30px;
+         display: flex;
+         justify-content:center;
+         align-items: flex-start;
+         
+         .makeups {
+         border-style: inset;
+         background-color: $color1;
+         border-color: $color2;
+         margin: 20px 500px 20px 500px;
+         text-align: center;
+             
+             }
+         }
+     }     
+    section {
+        background-color:$color1; 
+        .lista {
+            list-style-type: none;
+            border-color:  $color1;
+            border-style: inset;
+            background-color: $color1;
+            border-color: $color2;
+            background-image: url(https://img.freepik.com/foto-gratis/arreglo-vista-superior-pinceles-maquillaje-sombras-ojos_23-2148301855.jpg);
+            background-repeat: repeat-x;
+            font-family: 'Oswald', sans-serif;
+            font-size:30px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+             &:hover {
+                 background-color: $color1;
+             }
+        }
+    }   
+}
+footer {
+   margin-top: 90%;
+}
+
