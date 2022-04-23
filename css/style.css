@@ -1,84 +1,74 @@
-*{
-     margin: 0;
-     padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 header {
-    background-color: rgb(168, 146, 173);
-
+  background-color: rgb(168, 146, 173);
+}
+header .titulo {
+  font-size: 70px;
+  font-family: "Oswald", sans-serif;
+  border-style: inset;
+  background-color: rgb(168, 146, 173);
+  color: hsl(26deg, 77%, 59%);
+  text-align: center;
 }
 
 body {
-    background-color: rgb(168, 146, 173) ;
+  min-height: 100vh;
+  background-color: rgb(168, 146, 173);
 }
-section {
-    background-color:rgb(168, 146, 173);
-
+body section {
+  background-color: rgb(168, 146, 173);
+}
+body section .lista {
+  list-style-type: none;
+  border-color: hsl(343deg, 19%, 79%);
+  border-style: inset;
+  background-color: hsl(343deg, 19%, 79%);
+  background-image: url(https://img.freepik.com/foto-gratis/arreglo-vista-superior-pinceles-maquillaje-sombras-ojos_23-2148301855.jpg);
+  background-repeat: repeat-x;
+  font-family: "Oswald", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 main {
-    background-color:rgb(168, 146, 173) ;
+  background-color: rgb(168, 146, 173);
+}
+main .descripcion {
+  font-family: "Oswald", sans-serif;
+  color: hsl(26deg, 77%, 59%);
+  font-size: 20px;
+  margin-left: 100px;
+}
+main .form {
+  list-style-type: none;
+  background-color: hsl(343deg, 19%, 79%);
+  border-style: inset;
+  border-color: hsl(343deg, 19%, 79%);
+  color: hsl(26deg, 77%, 59%);
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+main .form .makeups {
+  border-style: inset;
+  border-color: hsl(26deg, 63%, 87%);
+  background-color: hsl(26deg, 63%, 87%);
+  color: hsl(26deg, 77%, 59%);
+  margin: 20px 500px 20px 500px;
+  text-align: center;
 }
 
 footer {
-    margin-top: 90%;
+  margin-top: 90%;
 }
 
-.titulo {
-    font-size: 70px;
-    font-family: 'Oswald', sans-serif;
-    border-style: inset;
-    background-color: rgb(168, 146, 173);
-    color:hsl(26, 77%, 59%);
-    text-align: center;
-
-}
-
-body {
-    min-height: 100vh;
-}
-.lista {
-    list-style-type: none;
-    border-color:  hsl(343, 19%, 79%);;
-    border-style: inset;
-    background-color:  hsl(343, 19%, 79%);;
-    color: hsl(26, 77%, 59%);
-    background-image: url(https://img.freepik.com/foto-gratis/arreglo-vista-superior-pinceles-maquillaje-sombras-ojos_23-2148301855.jpg);
-    background-repeat: repeat-x;
-    font-family: 'Oswald', sans-serif;
-    font-size:30px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-}
-
-.makeups {
-    border-style: inset;
-    border-color: hsl(26, 63%, 87%);
-    background-color: hsl(26, 63%, 87%);
-    color: hsl(26, 77%, 59%);
-    margin: 20px 500px 20px 500px;
-    text-align: center;
-
-}
-
-.form {
-    list-style-type:none;
-    background-color: hsl(343, 19%, 79%);;
-    border-style:inset;
-    border-color:hsl(343, 19%, 79%);;
-    color:hsl(26, 77%, 59%);
-    text-align: center;
-    font-family:'Oswald', sans-serif;
-    font-size: 30px;
-    display: flex;
-    justify-content:center;
-    align-items: flex-start;
-}
-
-.descripcion {
-    font-family: 'Oswald', sans-serif;
-    color: hsl(26, 77%, 59%);
-    font-size: 20px;
-    margin-left:100px;
-}
+/*# sourceMappingURL=destino.css.map */
