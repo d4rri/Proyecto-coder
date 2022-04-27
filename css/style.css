@@ -5,6 +5,7 @@
 
 header {
   background-color: rgb(168, 146, 173);
+<<<<<<< HEAD
 }
 header .titulo {
   font-size: 70px;
@@ -13,15 +14,39 @@ header .titulo {
   background-color: rgb(168, 146, 173);
   color: hsl(26deg, 77%, 59%);
   text-align: center;
+=======
+
+>>>>>>> ramatres
+}
+
+header .titulo {
+  background: linear-gradient(to top, rgb(168, 146, 173), rgb(255, 252, 252));
+  font-size: 70px;
+  font-family: "Oswald", sans-serif;
+  border-style: inset;
+  color: hsl(26deg, 77%, 59%);
+  text-align: center;
+  -webkit-box-shadow: 11px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 11px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 11px 10px 5px 0px rgba(0,0,0,0.75);
+  ;
 }
 
 body {
   min-height: 100vh;
   background-color: rgb(168, 146, 173);
+<<<<<<< HEAD
 }
 body section {
   background-color: rgb(168, 146, 173);
 }
+=======
+}
+body section {
+  background-color: rgb(168, 146, 173)
+}
+
+>>>>>>> ramatres
 body section .lista {
   list-style-type: none;
   border-color: hsl(343deg, 19%, 79%);
@@ -30,7 +55,11 @@ body section .lista {
   background-image: url(https://img.freepik.com/foto-gratis/arreglo-vista-superior-pinceles-maquillaje-sombras-ojos_23-2148301855.jpg);
   background-repeat: repeat-x;
   font-family: "Oswald", sans-serif;
+<<<<<<< HEAD
   font-size: 30px;
+=======
+  font-size: 25px;
+>>>>>>> ramatres
   text-align: center;
   display: flex;
   justify-content: center;
@@ -67,8 +96,45 @@ main .form .makeups {
   text-align: center;
 }
 
+<<<<<<< HEAD
 footer {
   margin-top: 90%;
 }
 
 /*# sourceMappingURL=destino.css.map */
+=======
+@keyframes animate__backInLeft{
+  0%{ width: 100px; }
+  50%{ width: 100%;}
+  100%{ width:auto;
+  background-color:rgb(168, 146, 173);}
+}
+
+section{
+  width: 100px;
+  height: 100px;
+  background-color: #a892ad;
+  animation-name: animate__backInLeft;
+  animation-iteration-count:infinite;
+  animation-timing-function: ease-in;
+  animation-duration: 5s;
+  animation-delay: 0s;
+}
+ 
+li:hover{
+  background-color: hsl(26deg, 77%, 59%);
+}
+
+a:visited{
+  color: hsl(26deg, 77%, 59%) ;
+}
+
+footer{
+  font-size: 25px;
+  transform: rotate(-3deg);
+  border-style:inset;
+  -webkit-box-shadow: 11px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 11px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 11px 10px 5px 0px rgba(0,0,0,0.75);
+}
+>>>>>>> ramatres
