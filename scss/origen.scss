@@ -108,3 +108,24 @@
     -moz-box-shadow: 11px 10px 5px 0px rgba(0,0,0,0.75);
     box-shadow: 11px 10px 5px 0px rgba(0,0,0,0.75);
   }
+
+  $fontsize:(
+    header: 70px,
+    section: 25px,
+    main: 20px,
+    form: 30px,
+  );
+  
+  @each $secciones, $tamanio in $fontsize {
+    @media (font-size: $tamanio){
+      .columna {
+        font-size: $tamanio;
+      }
+    }
+  }
+    
+ 
+
+
+
+  
