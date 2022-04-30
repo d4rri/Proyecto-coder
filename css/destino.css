@@ -5,7 +5,6 @@
 
 header {
   background-color: rgb(168, 146, 173);
-
 }
 
 header .titulo {
@@ -15,18 +14,18 @@ header .titulo {
   border-style: inset;
   color: hsl(26deg, 77%, 59%);
   text-align: center;
-  -webkit-box-shadow: 11px 10px 5px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 11px 10px 5px 0px rgba(0,0,0,0.75);
-  box-shadow: 11px 10px 5px 0px rgba(0,0,0,0.75);
-  ;
+  -webkit-box-shadow: 11px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 11px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 11px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 body {
   min-height: 100vh;
   background-color: rgb(168, 146, 173);
 }
+
 body section {
-  background-color: rgb(168, 146, 173)
+  background-color: rgb(168, 146, 173);
 }
 
 body section .lista {
@@ -46,12 +45,14 @@ body section .lista {
 main {
   background-color: rgb(168, 146, 173);
 }
+
 main .descripcion {
   font-family: "Oswald", sans-serif;
   color: hsl(26deg, 77%, 59%);
   font-size: 20px;
   margin-left: 100px;
 }
+
 main .form {
   list-style-type: none;
   background-color: hsl(343deg, 19%, 79%);
@@ -65,6 +66,7 @@ main .form {
   justify-content: center;
   align-items: flex-start;
 }
+
 main .form .makeups {
   border-style: inset;
   border-color: hsl(26deg, 63%, 87%);
@@ -74,37 +76,65 @@ main .form .makeups {
   text-align: center;
 }
 
-@keyframes animate__backInLeft{
-  0%{ width: 100px; }
-  50%{ width: 100%;}
-  100%{ width:auto;
-  background-color:rgb(168, 146, 173);}
+@keyframes animate__backInLeft {
+  0% {
+    width: 100px;
+  }
+  50% {
+    width: 100%;
+  }
+  100% {
+    width: auto;
+    background-color: rgb(168, 146, 173);
+  }
 }
-
-section{
+section {
   width: 100px;
   height: 100px;
   background-color: #a892ad;
   animation-name: animate__backInLeft;
-  animation-iteration-count:infinite;
+  animation-iteration-count: infinite;
   animation-timing-function: ease-in;
   animation-duration: 5s;
   animation-delay: 0s;
 }
- 
-li:hover{
+
+li:hover {
   background-color: hsl(26deg, 77%, 59%);
 }
 
-a:visited{
-  color: hsl(26deg, 77%, 59%) ;
+a:visited {
+  color: hsl(26deg, 77%, 59%);
 }
 
-footer{
+footer {
   font-size: 25px;
   transform: rotate(-3deg);
-  border-style:inset;
-  -webkit-box-shadow: 11px 10px 5px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 11px 10px 5px 0px rgba(0,0,0,0.75);
-  box-shadow: 11px 10px 5px 0px rgba(0,0,0,0.75);
+  border-style: inset;
+  -webkit-box-shadow: 11px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 11px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 11px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
+
+@media (font-size: 70px) {
+  .columna {
+    font-size: 70px;
+  }
+}
+@media (font-size: 25px) {
+  .columna {
+    font-size: 25px;
+  }
+}
+@media (font-size: 20px) {
+  .columna {
+    font-size: 20px;
+  }
+}
+@media (font-size: 30px) {
+  .columna {
+    font-size: 30px;
+  }
+}
+
+/*# sourceMappingURL=destino.css.map */
