@@ -53,26 +53,31 @@ main .descripcion {
 
 main .form {
   list-style-type: none;
-  background-color: hsl(343deg, 19%, 79%);
-  border-style: inset;
   border-color: hsl(343deg, 19%, 79%);
   color: hsl(26deg, 77%, 59%);
   text-align: center;
   font-family: "Oswald", sans-serif;
-  font-size: 30px;
+  font-size: 20px;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
-  padding: 5px;
+  align-items:center;
+  margin: 20px 20px 35px 280px;
 }
 
 main .form .makeups {
+  font-size: 10px;
   border-style: inset;
-  border-color: hsl(26deg, 63%, 87%);
-  background-color: hsl(26deg, 63%, 87%);
+  border-color: rgb(175, 168, 162);
+  background-color: rgb(175, 168, 162);
   color: hsl(26deg, 77%, 59%);
   margin: 20px 500px 20px 500px;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-box-shadow: 11px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 11px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 11px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 section {
@@ -81,6 +86,10 @@ section {
   font-size: 18px;
   padding: 10px;
   margin: -7px;
+}
+
+.cursoimg {
+  background-color:rgb(175, 168, 162) ;
 }
 
 @keyframes lista {
@@ -101,10 +110,33 @@ a:visited {
   color: hsl(26deg, 77%, 59%);
 }
 
+.form2 {
+    background-color: rgb(175, 168, 162);
+    border: inset;
+    font-family: "Oswald", sans-serif;
+    color:hsl(26deg, 77%, 59%);
+    font-size: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.galeria2 {
+  color: hsl(26deg, 77%, 59%);
+  font-family: "Oswald", sans-serif;
+  font-size: 19px;
+  display: flex;
+  justify-content:center;
+  text-align: center;
+  align-items: center;
+
+
+}
+
 footer {
   animation: myAnim 1s ease 0s 1 normal forwards;
   margin-bottom: 0%;
-  font-size: 20px;
+  font-size: 15px;
   background-color: rgb(175, 168, 162);
   border-style: inset;
   font-family: "Oswald", sans-serif;
@@ -132,26 +164,6 @@ footer {
   }
   75% {
     transform: translateX(-6px) rotate(-1.2deg);
-  }
-}
-@media (font-size: 70px) {
-  .columna {
-    font-size: 70px;
-  }
-}
-@media (font-size: 25px) {
-  .columna {
-    font-size: 25px;
-  }
-}
-@media (font-size: 20px) {
-  .columna {
-    font-size: 20px;
-  }
-}
-@media (font-size: 30px) {
-  .columna {
-    font-size: 30px;
   }
 }
 
