@@ -115,7 +115,7 @@ a:visited {
     border: inset;
     font-family: "Oswald", sans-serif;
     color:hsl(26deg, 77%, 59%);
-    font-size: 19px;
+    font-size: 21px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -128,7 +128,7 @@ a:visited {
 .galeria2 {
   color: hsl(26deg, 77%, 59%);
   font-family: "Oswald", sans-serif;
-  font-size: 19px;
+  font-size: 22px;
   display: flex;
   justify-content:center;
   text-align: center;
@@ -155,7 +155,15 @@ footer {
 
 .pprincipal {
   animation: myAnim5 2s ease 0s 1 normal forwards;
+  font-size: 33px;
 }
+
+.qsomos {
+  font-size: 60px;
+  display: flex;
+  text-align:center;
+}
+
 @keyframes myAnim5 {
 	0%,
 	50%,
@@ -210,9 +218,6 @@ footer {
   -moz-box-shadow: 11px 10px 5px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 11px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
-}
-
-
 
 @keyframes myAnim {
   0%, 100% {
