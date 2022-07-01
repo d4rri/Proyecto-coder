@@ -125,6 +125,20 @@ a:visited {
     margin-top: 7%;
 }
 
+.form3 {
+  background-color: rgb(175, 168, 162);
+  border: inset;
+  font-family: "Oswald", sans-serif;
+  color:hsl(26deg, 77%, 59%);
+  font-size: 21px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-box-shadow: 11px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 11px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 11px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
 .galeria2 {
   color: hsl(26deg, 77%, 59%);
   font-family: "Oswald", sans-serif;
