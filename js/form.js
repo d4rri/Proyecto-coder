@@ -56,9 +56,28 @@ function recuperoDatosDeUsr() {
          inputEmail.value = datosDeUsr.email
          inputPassword.value = datosDeUsr.password         
      } else {
-//       btnSubmit.disabled = true
+       alertar2("Por favor rellena el formulario")
      }
 }
+
+function alertar2(mensaje) {
+    Swal.fire({
+        title: 'Atención!',
+        text: mensaje,
+        icon: 'info',
+        confirmButtonText: 'Aceptar'
+    })
+}
+
+//const recuperoDatosDeUsr = () => {
+    //const datosDeUsr = JSON.parse(localStorage.getItem("datosDeUsr"))
+        //(localStorage.getItem("datosDeUsr")) ?
+        //inputEmail.value = datosDeUsr.email
+        //inputPassword.value = datosDeUsr.password :
+        //alertar2("Por favor rellena el formulario")
+    //}
+ 
+
 
 recuperoDatosDeUsr()
 

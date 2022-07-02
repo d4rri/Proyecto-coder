@@ -39,10 +39,20 @@ function alertar(mensaje) {
         confirmButtonText: 'Aceptar'
     })
 }
-        
+
+TotalProductosCarrito = () => {
+    let prod="";
+    let llenarCarrito =JSON.parse(localStorage.getItem("carrito")) || ['El carrito esta vacio.'];
+    console.log(prod);
+        for (prod of llenarCarrito) {
+            let total = carrito.reduce( (totalizar, c) => totalizar + c.precio, 0)
+            console.log("total->"+total);
+    }
+}
+
 
 
 
 
 recuperarObjeto()
-calcularCarrito()
+TotalProductosCarrito()
